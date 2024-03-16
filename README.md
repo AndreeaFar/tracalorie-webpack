@@ -7,11 +7,13 @@
  - Responsiveness across all devices
  - Add, remove, filter meals and workouts
 
-## Technologies Used
-  - JavaScript
-  - Webpack
-  - HTML
-  - Bootstrap
+### Application structure (OOP)
+I have created 5 JavaScript classes and used them as JS Modules, following SOLID and DRY design patterns.
+ - CalorieTracker: responsible for tracking the calories
+ - Meal: responsible for adding / removing meals
+ - Workout: responsible for adding / removing workouts
+ - Storage: responsible for updating the local storage with the user's data
+ - App: this is the app initializer, responsible for the event listeners
 
 ### Included the following Webpack features:
  - HTML Webpack Plugin
@@ -19,6 +21,12 @@
  - Webpack DevServer Plugin
  - Babel Loader
  - Css Loader
+
+### Technologies Used
+  - JavaScript
+  - Webpack
+  - HTML
+  - Bootstrap
 
 ### How to run the app
  - Clone the repo
