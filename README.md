@@ -8,7 +8,7 @@
  - Add, remove, filter meals and workouts
 
 ### Application structure (OOP)
-I have created 5 JavaScript classes and used them as JS Modules, following SOLID and DRY design patterns.
+I have created 5 JavaScript classes and used them as JS Modules, following SOLID and DRY design principles.
  - CalorieTracker: responsible for tracking the calories
  - Meal: responsible for adding / removing meals
  - Workout: responsible for adding / removing workouts
